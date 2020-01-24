@@ -1,4 +1,9 @@
 window.ec = window.ec || Object();
-window.ec.storefront = window.ec.storefront || Object();
-window.ec.storefront.show_signin_link = false; // hides the sign in link
+window.ec.config = window.ec.config || Object();
+window.ec.config.chameleon = window.ec.config.chameleon || Object();
+window.ec.config.chameleon.colors = {
+  'color-button':'#BBE3EB',
+  'color-price':'#EC6B00'
+}
+
 Ecwid.refreshConfig();
