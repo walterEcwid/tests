@@ -1,3 +1,3 @@
 Ecwid.OnAPILoaded.add(function() {
-    console.log("Ecwid storefront JS API has loaded");
+    alert("Ecwid storefront JS API has loaded");
 });
