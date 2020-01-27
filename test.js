@@ -1,3 +1,5 @@
+console.info("ЗАГРУЗИСЬ!");
+
 Ecwid.OnPageLoaded.add(function(page) {
-  console.log( 'ПАЖАЛУСТА ЗАРАБОТАЙ!!' );
+  console.log("ПАЖАЛУСТА ЗАРАБОТАЙ!");
 });
