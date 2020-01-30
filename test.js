@@ -11,5 +11,4 @@ console.log("Кастомное приложение загружено!");
   }
   Ecwid.refreshConfig();
 //Ecwid.OnPageLoaded.add(function(page) {
-//
 //});
