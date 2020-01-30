@@ -1,4 +1,4 @@
-console.log("Кастомное приложение загружено!");
+console.log("Кастомное приложение загружено!"); /*
   window.ec = window.ec || Object();
   window.ec.config = window.ec.config || Object();
   window.ec.config.chameleon = window.ec.config.chameleon || Object();
@@ -9,6 +9,6 @@ console.log("Кастомное приложение загружено!");
     'color-button':'#4EA3F0',
     'color-price':'#FF0606'
   }
-  Ecwid.refreshConfig();
+  Ecwid.refreshConfig(); */
 //Ecwid.OnPageLoaded.add(function(page) {
 //});
