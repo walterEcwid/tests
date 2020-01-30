@@ -1,4 +1,4 @@
-Ecwid.OnPageLoaded.add(function(page) {
+
   window.ec = window.ec || Object();
   window.ec.config = window.ec.config || Object();
   window.ec.config.chameleon = window.ec.config.chameleon || Object();
@@ -9,5 +9,7 @@ Ecwid.OnPageLoaded.add(function(page) {
     'color-button':'#4EA3F0',
     'color-price':'#FF0606'
   }
-Ecwid.refreshConfig();
-});
+
+//Ecwid.OnPageLoaded.add(function(page) {
+//Ecwid.refreshConfig();
+//});
